@@ -1297,3 +1297,151 @@
                 animation: none !important;
             }
         }
+
+
+/* ── Hero Profile Avatar & Badge ── */
+.hero-profile-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.hero-avatar {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid var(--white);
+    box-shadow: 0 8px 24px rgba(15,118,110,.25), 0 0 0 3px rgba(15,118,110,.2);
+    transition: transform .3s ease, box-shadow .3s ease;
+    background: #f1ede7;
+}
+
+.hero-avatar:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 30px rgba(15,118,110,.35), 0 0 0 3px var(--teal);
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(15,118,110,.09);
+    color: var(--teal-dark);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(15,118,110,.2);
+}
+
+/* ── Metric Stats Strip ── */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+    margin: 28px 0;
+}
+
+.stat-card {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 22px 20px;
+    border: 1px solid rgba(17,24,39,.08);
+    box-shadow: var(--shadow-card);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 32px rgba(17,24,39,.12);
+}
+
+.stat-number {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.1rem;
+    color: var(--teal);
+    line-height: 1.1;
+}
+
+.stat-label {
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--stone);
+}
+
+.stat-sub {
+    font-size: 0.78rem;
+    color: var(--muted);
+}
+
+/* ── Experience Timeline Header ── */
+.exp-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+
+.exp-company {
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: var(--stone);
+}
+
+.exp-date {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--copper);
+    background: rgba(199,107,58,.1);
+    padding: 3px 10px;
+    border-radius: 6px;
+}
+
+.exp-role {
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--teal-dark);
+    margin-bottom: 8px;
+}
+
+.exp-list {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: var(--muted);
+    font-size: 0.92rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.exp-list li {
+    line-height: 1.55;
+}
+
+/* ── Section Header Badges ── */
+.section-intro {
+    color: var(--muted);
+    margin-top: -12px;
+    margin-bottom: 22px;
+    font-size: 0.98rem;
+}
+
+.tag-pill {
+    display: inline-block;
+    background: rgba(15,118,110,.08);
+    color: var(--teal-dark);
+    font-size: 0.76rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+}

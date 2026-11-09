@@ -1,9 +1,9 @@
 /*
-  X-Frame-Options: DENY
+  X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Referrer-Policy: strict-origin-when-cross-origin
 
-/index.html
-  X-Robots-Tag: noindex, nofollow
+/MY%20Resume.pdf
+  Content-Disposition: inline

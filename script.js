@@ -122,11 +122,10 @@
        Pill pop-in
     ───────────────────────────────────────────────── */
     function setupPillPopIn() {
-        const groupIds = ["lang-pills", "fw-pills", "db-pills", "domain-pills"];
+        const groups = Array.from(document.querySelectorAll(".pill-list"));
+        if (!groups.length) return;
 
-        groupIds.forEach(id => {
-            const group = document.getElementById(id);
-            if (!group) return;
+        groups.forEach(group => {
             const pills = group.querySelectorAll(".pill");
             if (!pills.length) return;
 
@@ -140,7 +139,7 @@
                     entries.forEach(entry => {
                         if (!entry.isIntersecting) return;
                         pills.forEach((pill, idx) =>
-                            setTimeout(() => pill.classList.add("popped"), idx * 55)
+                            setTimeout(() => pill.classList.add("popped"), idx * 45)
                         );
                         io.unobserve(entry.target);
                     });
@@ -497,10 +496,15 @@
         if (!sections.length) return;
 
         const labels = {
-            about: "About", experience: "Experience", education: "Education",
-            skills: "Skills", projects: "Projects", achievements: "Achievements",
-            activities: "Activities", languages: "Languages", github: "GitHub",
-            cv: "CV", contact: "Contact", links: "Links"
+            about: "About",
+            experience: "Experience",
+            competencies: "Competencies",
+            purview: "Technical Purview",
+            education: "Education",
+            itpreview: "IT Preview",
+            personal: "Personal Details",
+            cv: "CV / Resume",
+            contact: "Contact"
         };
 
         const nav = document.createElement("nav");

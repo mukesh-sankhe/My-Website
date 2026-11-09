@@ -1,9 +1,6 @@
 {
-  "name": "om-portfolio",
+  "name": "mukesh-sankhe-website",
   "version": "1.0.0",
-  "description": "Netlify serverless functions for Razorpay payment integration",
-  "private": true,
-  "dependencies": {
-    "razorpay": "^2.9.4"
-  }
+  "description": "Official Professional Website for Mukesh Narayan Sankhe - Senior Manager Production & Planning",
+  "private": true
 }

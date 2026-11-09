@@ -1,93 +1,35 @@
-# Om Pradip Patil - Portfolio Website
+# Mukesh Narayan Sankhe - Official Professional Website
 
-![Portfolio Screenshot](Screenshot 2025-04-05 223027.png)
+Official website and executive portfolio for **Mukesh Narayan Sankhe** – Senior Manager in Production, Planning & Supply Chain Management with over 22 years of industrial experience across Viraj Profiles and Tata Steel Wire Division.
 
-##  [Live Demo](https://ompradippatil.netlify.app/)
+- **Live Deployment:** [https://mukesh-sankhe.netlify.app/](https://mukesh-sankhe.netlify.app/)
+- **Location:** Boisar, Palghar, Maharashtra, India
+- **Contact:** [mukeshnsankhe@gmail.com](mailto:mukeshnsankhe@gmail.com) | +91 9545240120
 
-A modern, responsive personal portfolio website showcasing my skills, education, and projects as a Computer Science Engineering student.
+## Overview & Highlights
 
-##  Features
+- **Over 22 Years of Experience:** In Production, Manufacturing, Raw Material Planning, and Supply Chain Management.
+- **Viraj Profiles Pvt. Ltd. (Boisar):** Senior Manager – Production & Planning managing SS Wire Division with 84,000 MT/annum capacity.
+- **Tata Steel Wire Division (Tarapur):** Associate Shift Incharge overseeing auto bead wire, spring wire, and PCSR wire lines.
+- **Education:** B.E. in Production Engineering (Mumbai University), PGDIM (IGNOU), Diploma in Production Technology (Maharashtra Board).
+- **Certifications:** Certified Internal QMS Auditor (ISO 9001: 2000) by TQMI.
+- **ERP:** SAP S/4 HANA & SAP ECC-PP Module (End User).
 
-- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
-- **Interactive UI**: Animated sections with GSAP and Particles.js
-- **Dark/Light Mode**: Toggle between color schemes
-- **Modern UI Elements**: Clean cards, smooth animations, and intuitive navigation
-- **Performance Optimized**: Fast loading and smooth scrolling experience
+## Technology Stack
 
-##  Built With
+- Semantic HTML5 with comprehensive Schema.org JSON-LD structured data
+- Responsive CSS3 design (DM Serif Display & Space Grotesk typography)
+- Vanilla JavaScript (zero external runtime dependencies)
+- Search Engine Optimized (SEO, Open Graph, Twitter Cards, Sitemap, Robots.txt)
 
-- HTML5
-- CSS3 (with custom properties)
-- JavaScript (Vanilla)
-- GSAP Animation Library
-- Particles.js
-- FontAwesome Icons
+## Local Preview
 
-##  Local Development
+Open `index.html` in any modern web browser or run:
+```bash
+# Using Node.js
+npx serve .
+```
 
-To run this project locally:
+## License
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/omspradippatil/My-Website.git
-   ```
-
-2. Navigate to the project folder
-   ```bash
-   cd My-Website
-   ```
-
-3. Open `index.html` in your browser or use a local server
-   ```bash
-   # If you have Python installed
-   python -m http.server
-   ```
-
-##  Screenshots
-
-<details>
-  <summary>View screenshots</summary>
-  
-  ### Home Section
-  ![Home Section](Screenshot 2025-04-05 223027.png)
-  
-  ### About Section
-  ![About Section](Screenshot 2025-04-05 223113.png)
-</details>
-
-##  Updates & Roadmap
-
-- [x] Initial release
-- [x] Added GitHub section
-- [ ] Add project portfolio section
-- [ ] Implement content management system
-- [ ] Add blog section
-
-##  License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-##  Connect with Me
-
-- GitHub: [@omspradippatil](https://github.com/omspradippatil)
-- LinkedIn: [Om Pradip Patil](https://in.linkedin.com/in/om-pradip-patil)
-- Instagram: [@omspradippatil](https://www.instagram.com/omspradippatil)
-
-##  Support
-
-If you find my work helpful, consider [supporting me](https://om-patil.com/donate).
-
----
-
- Feel free to use this template to create your own portfolio website!
-
----
-
-##  Contact the Developer
-
-**Developed by OM Patil**
-
-- **Portfolio**: [ompradippatil.netlify.app](https://ompradippatil.netlify.app/)
-- **GitHub**: [@omspradippatil](https://github.com/omspradippatil)
-- **LinkedIn**: [OM Pradip Patil](https://in.linkedin.com/in/om-pradip-patil)
-- **Email**: [omspradippatil@gmail.com](mailto:omspradippatil@gmail.com)
+All rights reserved © 2026 Mukesh Narayan Sankhe.

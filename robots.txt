@@ -5,4 +5,4 @@ User-agent: Googlebot-Image
 Allow: /assets/images/
 Allow: /
 
-Sitemap: https://om-patil.com/sitemap.xml
+Sitemap: https://mukesh-sankhe.netlify.app/sitemap.xml

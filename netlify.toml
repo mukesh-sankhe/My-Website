@@ -1,65 +1,8 @@
 [build]
   publish = "."
-  functions = "netlify/functions"
-
-  # RAZORPAY_KEY_ID is intentionally public (safe for frontend).
-  # Only RAZORPAY_KEY_SECRET must stay server-side (it never reaches the browser).
-  [build.environment]
-    SECRETS_SCAN_OMIT_KEYS = "RAZORPAY_KEY_ID"
 
 [[redirects]]
-  from = "/google3abb376b0c48cfa0.html"
-  to = "/google3abb376b0c48cfa0.html"
+  from = "/*"
+  to = "/index.html"
   status = 200
-  force = true
-
-[[redirects]]
-  from = "/index.html"
-  to = "https://om-patil.com/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/donate/index.html"
-  to = "https://om-patil.com/donate/"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://ompradippatil.netlify.app/*"
-  to = "https://om-patil.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://ompradippatil.netlify.app/*"
-  to = "https://om-patil.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.om-patil.com/*"
-  to = "https://om-patil.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.om-patil.com/*"
-  to = "https://om-patil.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://om-patil.com/*"
-  to = "https://om-patil.com/:splat"
-  status = 301
-  force = true
-
-[functions]
-  node_bundler = "esbuild"
-
-[[redirects]]
-  from = "/amp/*"
-  to = "https://om-patil.com/"
-  status = 301
-  force = true
+  force = false

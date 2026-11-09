@@ -5,4 +5,4 @@ User-agent: Googlebot-Image
 Allow: /assets/images/
 Allow: /
 
-Sitemap: https://mukesh-sankhe.netlify.app/sitemap.xml
+Sitemap: https://mukesh-sankhe.vercel.app/sitemap.xml

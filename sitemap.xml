@@ -3,12 +3,12 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://mukesh-sankhe.netlify.app/</loc>
+    <loc>https://mukesh-sankhe.vercel.app/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://mukesh-sankhe.netlify.app/assets/images/mukesh-sankhe.png</image:loc>
+      <image:loc>https://mukesh-sankhe.vercel.app/assets/images/mukesh-sankhe.png</image:loc>
       <image:title>Mukesh Narayan Sankhe - Senior Manager Production &amp; Planning</image:title>
       <image:caption>Official portrait photo of Mukesh Narayan Sankhe, Senior Manager in Production, Planning &amp; Supply Chain Management from Boisar, Palghar, Mumbai 401501.</image:caption>
       <image:geo_location>Boisar, Palghar, Mumbai 401501</image:geo_location>

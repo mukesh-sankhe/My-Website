@@ -2,7 +2,7 @@
 
 Official website and executive portfolio for **Mukesh Narayan Sankhe** – Senior Manager in Production, Planning & Supply Chain Management with over 22 years of industrial experience across Viraj Profiles and Tata Steel Wire Division.
 
-- **Live Deployment:** [https://mukesh-sankhe.netlify.app/](https://mukesh-sankhe.netlify.app/)
+- **Live Deployment:** [https://mukesh-sankhe.vercel.app/](https://mukesh-sankhe.vercel.app/)
 - **Location:** Boisar, Palghar, Maharashtra, India
 - **Contact:** [mukeshnsankhe@gmail.com](mailto:mukeshnsankhe@gmail.com) | +91 9545240120
 
